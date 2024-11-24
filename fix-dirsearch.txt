@@ -1,8 +1,8 @@
 pip install --upgrade dirsearch
 
 Modify Dirsearch Code:
+
 Path:	/usr/lib/python3/dist-packages/dirsearch/dirsearch.py
 
 Replace:	from pkg_resources import DistributionNotFound, VersionConflict
-
 with:	from importlib.metadata import PackageNotFoundError as DistributionNotFound, version as VersionConflict
