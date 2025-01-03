@@ -1,0 +1,6 @@
+On Administrator User Directory
+
+create a file:   .wslconfig
+
+[wsl2]
+networkingMode=mirrored
