@@ -4,6 +4,5 @@ If this option doesn’t appear, press "Shift + F10" to open CMD and type:
 
 oobe\bypassnro
 
-
 This will restart setup and show offline/local options.
 Choose "Continue with limited setup".
