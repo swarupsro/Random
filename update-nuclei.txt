@@ -1,0 +1,13 @@
+sudo apt remove --purge nucle
+sudo rm /usr/local/bin/nuclei
+
+# Download the latest release
+wget https://github.com/projectdiscovery/nuclei/releases/latest/download/nuclei_3.4.5_linux_amd64.zip
+
+# Extract and install
+unzip nuclei_3.4.5_linux_amd64.zip
+sudo mv nuclei /usr/local/bin/
+chmod +x /usr/local/bin/nuclei
+
+# Clean up
+rm nuclei_3.4.5_linux_amd64.zip
