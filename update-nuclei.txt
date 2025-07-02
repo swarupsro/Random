@@ -1,4 +1,4 @@
-sudo apt remove --purge nucle
+sudo apt remove --purge nuclei
 sudo rm /usr/local/bin/nuclei
 
 # Download the latest release
