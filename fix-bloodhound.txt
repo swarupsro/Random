@@ -1,0 +1,8 @@
+PostgreSQL collation version mismatch
+
+sudo -u postgres psql
+	- ALTER DATABASE template1 REFRESH COLLATION VERSION;
+	- ALTER DATABASE postgres REFRESH COLLATION VERSION;
+	- \q
+	
+bloodhound
