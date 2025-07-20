@@ -2,7 +2,7 @@ pip list --outdated
 
 For Windows:
 
-ip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
+pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
 
 For Linux:
 
