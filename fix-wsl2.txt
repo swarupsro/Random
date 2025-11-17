@@ -13,3 +13,8 @@ networkingMode=mirrored
 WSL2 Notes:
 
 https://gist.github.com/swarupmtb/5918e2b8e71158933a03e3238dfd2354
+
+
+WSL 2 Network Error Fix:
+
+https://gist.github.com/swarupsro/57ac3b95d0c156a7cda91902292e65dc
