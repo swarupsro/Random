@@ -1,0 +1,36 @@
+windows 11 -> Linux Server
+
+ssh-keygen -t ed25519
+	- File will Store C:\Users\Swarup\.ssh\
+	
+type $env:USERPROFILE\.ssh\id_ed25519.pub
+	- Copy The Line
+
+----------
+
+Login to Linux Server
+
+mkdir -p ~/.ssh
+nano ~/.ssh/authorized_keys 
+	- Paste The Previous Copied Line
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+
+
+
+Fun Tips
+
+ShortCut on Windowss 11
+
+notepad $env:USERPROFILE\.ssh\config
+
+Host ubuntu
+    HostName 192.xxx.xx.xx
+    User username
+    IdentityFile ~/.ssh/id_ed25519
+
+Then ShortCut is
+
+ssh ubuntu
+
+
